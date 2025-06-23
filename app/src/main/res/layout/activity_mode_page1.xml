@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mb1"
+    tools:context=".mode_page_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Game Mode"
+        android:textSize="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F57C00"
+        android:textAllCaps="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        android:elevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies"
+                android:textSize="30dp"
+                android:layout_marginLeft="130dp"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/movies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:textSize="28dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#0288D1"
+                android:onClick="movies"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="220dp"
+        android:elevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Songs"
+                android:textSize="30dp"
+                android:layout_marginLeft="130dp"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/songs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:textSize="28dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#0288D1"
+                android:onClick="songs"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="360dp"
+        android:elevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celebrities"
+                android:textSize="30dp"
+                android:layout_marginLeft="130dp"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:textSize="28dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#0288D1"
+                android:onClick="celebs"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="500dp"
+        android:elevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bm"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sport Players"
+                android:textSize="30dp"
+                android:layout_marginLeft="130dp"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/players"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:textSize="28dp"
+                android:textAllCaps="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#0288D1"
+                android:onClick="players"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
